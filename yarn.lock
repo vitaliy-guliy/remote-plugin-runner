@@ -2,6 +2,16 @@
 # yarn lockfile v1
 
 
+"@eclipse-che/api@latest":
+  version "6.17.1"
+  resolved "https://registry.yarnpkg.com/@eclipse-che/api/-/api-6.17.1.tgz#bae00a5ac60501566759ff07b134867996ce8964"
+
+"@eclipse-che/plugin@latest":
+  version "0.0.1-1551862600"
+  resolved "https://registry.yarnpkg.com/@eclipse-che/plugin/-/plugin-0.0.1-1551862600.tgz#0547638fa97985915e23c8260ae0d7b88b37b6a5"
+  dependencies:
+    "@eclipse-che/api" latest
+
 "@theia/plugin-packager@latest":
   version "0.0.1-1550255725"
   resolved "https://registry.yarnpkg.com/@theia/plugin-packager/-/plugin-packager-0.0.1-1550255725.tgz#4a829848555e272e9102d166b3a9c74327348c72"
